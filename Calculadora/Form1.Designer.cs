@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txtResultado = new System.Windows.Forms.TextBox();
             this.btnSete = new System.Windows.Forms.Button();
             this.btnOito = new System.Windows.Forms.Button();
@@ -51,20 +52,23 @@
             // 
             // txtResultado
             // 
-            this.txtResultado.Location = new System.Drawing.Point(12, 12);
-            this.txtResultado.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
+            this.txtResultado.Location = new System.Drawing.Point(20, 13);
+            this.txtResultado.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtResultado.MaxLength = 5;
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.ReadOnly = true;
-            this.txtResultado.Size = new System.Drawing.Size(174, 20);
+            this.txtResultado.Size = new System.Drawing.Size(272, 64);
             this.txtResultado.TabIndex = 0;
             this.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // btnSete
             // 
-            this.btnSete.Location = new System.Drawing.Point(12, 92);
-            this.btnSete.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnSete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnSete.Location = new System.Drawing.Point(20, 152);
+            this.btnSete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSete.Name = "btnSete";
-            this.btnSete.Size = new System.Drawing.Size(38, 40);
+            this.btnSete.Size = new System.Drawing.Size(68, 63);
             this.btnSete.TabIndex = 1;
             this.btnSete.Text = "7";
             this.btnSete.UseVisualStyleBackColor = true;
@@ -72,10 +76,11 @@
             // 
             // btnOito
             // 
-            this.btnOito.Location = new System.Drawing.Point(56, 92);
-            this.btnOito.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnOito.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnOito.Location = new System.Drawing.Point(88, 152);
+            this.btnOito.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnOito.Name = "btnOito";
-            this.btnOito.Size = new System.Drawing.Size(38, 40);
+            this.btnOito.Size = new System.Drawing.Size(68, 63);
             this.btnOito.TabIndex = 2;
             this.btnOito.Text = "8";
             this.btnOito.UseVisualStyleBackColor = true;
@@ -83,10 +88,11 @@
             // 
             // btnNove
             // 
-            this.btnNove.Location = new System.Drawing.Point(102, 92);
-            this.btnNove.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnNove.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnNove.Location = new System.Drawing.Point(156, 152);
+            this.btnNove.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnNove.Name = "btnNove";
-            this.btnNove.Size = new System.Drawing.Size(38, 40);
+            this.btnNove.Size = new System.Drawing.Size(68, 63);
             this.btnNove.TabIndex = 3;
             this.btnNove.Text = "9";
             this.btnNove.UseVisualStyleBackColor = true;
@@ -94,10 +100,11 @@
             // 
             // btnQuatro
             // 
-            this.btnQuatro.Location = new System.Drawing.Point(12, 139);
-            this.btnQuatro.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnQuatro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnQuatro.Location = new System.Drawing.Point(20, 214);
+            this.btnQuatro.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnQuatro.Name = "btnQuatro";
-            this.btnQuatro.Size = new System.Drawing.Size(38, 40);
+            this.btnQuatro.Size = new System.Drawing.Size(68, 63);
             this.btnQuatro.TabIndex = 4;
             this.btnQuatro.Text = "4";
             this.btnQuatro.UseVisualStyleBackColor = true;
@@ -105,10 +112,11 @@
             // 
             // btnCinco
             // 
-            this.btnCinco.Location = new System.Drawing.Point(56, 139);
-            this.btnCinco.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnCinco.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnCinco.Location = new System.Drawing.Point(88, 214);
+            this.btnCinco.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCinco.Name = "btnCinco";
-            this.btnCinco.Size = new System.Drawing.Size(38, 40);
+            this.btnCinco.Size = new System.Drawing.Size(68, 63);
             this.btnCinco.TabIndex = 5;
             this.btnCinco.Text = "5";
             this.btnCinco.UseVisualStyleBackColor = true;
@@ -116,10 +124,11 @@
             // 
             // btnSeis
             // 
-            this.btnSeis.Location = new System.Drawing.Point(102, 139);
-            this.btnSeis.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnSeis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnSeis.Location = new System.Drawing.Point(156, 214);
+            this.btnSeis.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSeis.Name = "btnSeis";
-            this.btnSeis.Size = new System.Drawing.Size(38, 40);
+            this.btnSeis.Size = new System.Drawing.Size(68, 63);
             this.btnSeis.TabIndex = 6;
             this.btnSeis.Text = "6";
             this.btnSeis.UseVisualStyleBackColor = true;
@@ -127,10 +136,11 @@
             // 
             // btnUm
             // 
-            this.btnUm.Location = new System.Drawing.Point(12, 183);
-            this.btnUm.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnUm.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnUm.Location = new System.Drawing.Point(20, 278);
+            this.btnUm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnUm.Name = "btnUm";
-            this.btnUm.Size = new System.Drawing.Size(38, 40);
+            this.btnUm.Size = new System.Drawing.Size(68, 63);
             this.btnUm.TabIndex = 7;
             this.btnUm.Text = "1";
             this.btnUm.UseVisualStyleBackColor = true;
@@ -138,10 +148,11 @@
             // 
             // btnDois
             // 
-            this.btnDois.Location = new System.Drawing.Point(56, 183);
-            this.btnDois.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnDois.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnDois.Location = new System.Drawing.Point(88, 278);
+            this.btnDois.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDois.Name = "btnDois";
-            this.btnDois.Size = new System.Drawing.Size(38, 40);
+            this.btnDois.Size = new System.Drawing.Size(68, 63);
             this.btnDois.TabIndex = 8;
             this.btnDois.Text = "2";
             this.btnDois.UseVisualStyleBackColor = true;
@@ -149,10 +160,11 @@
             // 
             // btnTres
             // 
-            this.btnTres.Location = new System.Drawing.Point(102, 183);
-            this.btnTres.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnTres.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnTres.Location = new System.Drawing.Point(156, 278);
+            this.btnTres.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnTres.Name = "btnTres";
-            this.btnTres.Size = new System.Drawing.Size(38, 40);
+            this.btnTres.Size = new System.Drawing.Size(68, 63);
             this.btnTres.TabIndex = 9;
             this.btnTres.Text = "3";
             this.btnTres.UseVisualStyleBackColor = true;
@@ -160,10 +172,11 @@
             // 
             // btnZero
             // 
-            this.btnZero.Location = new System.Drawing.Point(56, 230);
-            this.btnZero.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnZero.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnZero.Location = new System.Drawing.Point(88, 341);
+            this.btnZero.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnZero.Name = "btnZero";
-            this.btnZero.Size = new System.Drawing.Size(38, 40);
+            this.btnZero.Size = new System.Drawing.Size(68, 63);
             this.btnZero.TabIndex = 10;
             this.btnZero.Text = "0";
             this.btnZero.UseVisualStyleBackColor = true;
@@ -173,11 +186,12 @@
             // 
             this.btnVirgula.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnVirgula.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnVirgula.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnVirgula.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnVirgula.Location = new System.Drawing.Point(12, 230);
-            this.btnVirgula.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnVirgula.Location = new System.Drawing.Point(20, 341);
+            this.btnVirgula.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnVirgula.Name = "btnVirgula";
-            this.btnVirgula.Size = new System.Drawing.Size(38, 40);
+            this.btnVirgula.Size = new System.Drawing.Size(68, 63);
             this.btnVirgula.TabIndex = 11;
             this.btnVirgula.Text = ",";
             this.btnVirgula.UseVisualStyleBackColor = false;
@@ -187,11 +201,12 @@
             // 
             this.btnIgual.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnIgual.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnIgual.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnIgual.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnIgual.Location = new System.Drawing.Point(102, 230);
-            this.btnIgual.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnIgual.Location = new System.Drawing.Point(224, 341);
+            this.btnIgual.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnIgual.Name = "btnIgual";
-            this.btnIgual.Size = new System.Drawing.Size(38, 40);
+            this.btnIgual.Size = new System.Drawing.Size(68, 63);
             this.btnIgual.TabIndex = 12;
             this.btnIgual.Text = "=";
             this.btnIgual.UseVisualStyleBackColor = false;
@@ -201,11 +216,12 @@
             // 
             this.btnDivisao.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnDivisao.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnDivisao.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnDivisao.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnDivisao.Location = new System.Drawing.Point(146, 92);
-            this.btnDivisao.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnDivisao.Location = new System.Drawing.Point(224, 152);
+            this.btnDivisao.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDivisao.Name = "btnDivisao";
-            this.btnDivisao.Size = new System.Drawing.Size(38, 40);
+            this.btnDivisao.Size = new System.Drawing.Size(68, 63);
             this.btnDivisao.TabIndex = 13;
             this.btnDivisao.Text = "/";
             this.btnDivisao.UseVisualStyleBackColor = false;
@@ -215,11 +231,12 @@
             // 
             this.btnMultiplicacao.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnMultiplicacao.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnMultiplicacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnMultiplicacao.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnMultiplicacao.Location = new System.Drawing.Point(146, 139);
-            this.btnMultiplicacao.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnMultiplicacao.Location = new System.Drawing.Point(224, 215);
+            this.btnMultiplicacao.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnMultiplicacao.Name = "btnMultiplicacao";
-            this.btnMultiplicacao.Size = new System.Drawing.Size(38, 40);
+            this.btnMultiplicacao.Size = new System.Drawing.Size(68, 63);
             this.btnMultiplicacao.TabIndex = 14;
             this.btnMultiplicacao.Text = "X";
             this.btnMultiplicacao.UseVisualStyleBackColor = false;
@@ -229,11 +246,12 @@
             // 
             this.btnSubtracao.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnSubtracao.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnSubtracao.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnSubtracao.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnSubtracao.Location = new System.Drawing.Point(146, 183);
-            this.btnSubtracao.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnSubtracao.Location = new System.Drawing.Point(224, 278);
+            this.btnSubtracao.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSubtracao.Name = "btnSubtracao";
-            this.btnSubtracao.Size = new System.Drawing.Size(38, 40);
+            this.btnSubtracao.Size = new System.Drawing.Size(68, 63);
             this.btnSubtracao.TabIndex = 15;
             this.btnSubtracao.Text = "-";
             this.btnSubtracao.UseVisualStyleBackColor = false;
@@ -243,11 +261,12 @@
             // 
             this.btnAdicao.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnAdicao.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnAdicao.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnAdicao.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnAdicao.Location = new System.Drawing.Point(146, 230);
-            this.btnAdicao.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnAdicao.Location = new System.Drawing.Point(156, 341);
+            this.btnAdicao.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAdicao.Name = "btnAdicao";
-            this.btnAdicao.Size = new System.Drawing.Size(38, 40);
+            this.btnAdicao.Size = new System.Drawing.Size(68, 63);
             this.btnAdicao.TabIndex = 16;
             this.btnAdicao.Text = "+";
             this.btnAdicao.UseVisualStyleBackColor = false;
@@ -257,11 +276,12 @@
             // 
             this.btnLimpar.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnLimpar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnLimpar.Location = new System.Drawing.Point(146, 46);
-            this.btnLimpar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnLimpar.Location = new System.Drawing.Point(224, 89);
+            this.btnLimpar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(38, 40);
+            this.btnLimpar.Size = new System.Drawing.Size(68, 63);
             this.btnLimpar.TabIndex = 17;
             this.btnLimpar.Text = "C";
             this.btnLimpar.UseVisualStyleBackColor = false;
@@ -270,17 +290,17 @@
             // lblOperacao
             // 
             this.lblOperacao.AutoSize = true;
-            this.lblOperacao.Location = new System.Drawing.Point(16, 14);
-            this.lblOperacao.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblOperacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
+            this.lblOperacao.Location = new System.Drawing.Point(21, 17);
             this.lblOperacao.Name = "lblOperacao";
-            this.lblOperacao.Size = new System.Drawing.Size(0, 13);
+            this.lblOperacao.Size = new System.Drawing.Size(0, 58);
             this.lblOperacao.TabIndex = 18;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(198, 286);
+            this.ClientSize = new System.Drawing.Size(312, 425);
             this.Controls.Add(this.lblOperacao);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnAdicao);
@@ -301,10 +321,13 @@
             this.Controls.Add(this.btnSete);
             this.Controls.Add(this.txtResultado);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
