@@ -7,7 +7,7 @@ Desenvolvimento desktop de uma calculadora básica para fins didáticos.
 ![image](https://github.com/marquescharlon/calculadora/assets/22162514/01127c3d-7aa7-482d-94fa-fd04dc4e9520)
 
 ## Ferramentas utilizadas
-```C#```
+```C# (CSharp)```
 ```.NET Framework v4.5.2```
 ```Visual Studio 2015```
 
