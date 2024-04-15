@@ -1,8 +1,8 @@
 # Calculadora
-Criando uma aplicação desktop usando Microsoft Visual Studio 
+Realizar adição, subtração, multiplicação e divisão.
 
 ## Objetivo
-Para fins didáticos.
+Desenvolvimento desktop de uma calculadora básica para fins didáticos.
 
 ![image](https://github.com/marquescharlon/calculadora/assets/22162514/01127c3d-7aa7-482d-94fa-fd04dc4e9520)
 
@@ -17,6 +17,3 @@ Para fins didáticos.
 - [x] Criação de evento/ação ```_Click()``` de cada botão
 - [x] Criação da lógica dos operadores ```Adição, Subtração, Multiplicação e Divisão```
 
-# Conclusão
-
-Desenvolvimento de uma calculadora básica.
