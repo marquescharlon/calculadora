@@ -29,6 +29,19 @@ namespace Calculadora
             InitializeComponent();
         }
 
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            // Verificando se a tecla ESC foi pressionada
+            switch (e.KeyCode)
+            {
+                case Keys.Escape:
+                    // Fechar o aplicativo
+                    this.Close();
+                    break;
+            }
+
+        }
+
         private void btnZero_Click(object sender, EventArgs e)
         {
             txtResultado.Text += "0";
@@ -147,15 +160,15 @@ namespace Calculadora
         }
 
 
-        private void Form1_KeyDown(object sender, KeyEventArgs e)
-        {
-            // Verificando se a tecla ESC foi pressionada
-            if (e.KeyCode == Keys.Escape)
-            {
-                // Fechar o aplicativo
-                this.Close();
-            }
+        //private void Form1_KeyDown(object sender, KeyEventArgs e)
+        //{
+        //    // Verificando se a tecla ESC foi pressionada
+        //    if (e.KeyCode == Keys.Escape)
+        //    {
+        //        // Fechar o aplicativo
+        //        this.Close();
+        //    }
 
-        }
+        //}
     }
 }
