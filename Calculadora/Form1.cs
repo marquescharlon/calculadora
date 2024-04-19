@@ -23,6 +23,7 @@ namespace Calculadora
             Multiplicacao,
             Divisao
         }
+
         public Form1()
         {
             InitializeComponent();
@@ -145,8 +146,15 @@ namespace Calculadora
             lblOperacao.Text = "";
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
+            // Verificando se a tecla ESC foi pressionada
+            if (e.KeyCode == Keys.Escape)
+            {
+                // Fechar o aplicativo
+                this.Close();
+            }
 
         }
     }
