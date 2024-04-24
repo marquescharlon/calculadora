@@ -38,6 +38,36 @@ namespace Calculadora
                     // Fechar o aplicativo
                     this.Close();
                     break;
+                case Keys.D1:
+                    txtResultado.Text += "1";
+                    break;
+                case Keys.D2:
+                    txtResultado.Text += "2";
+                    break;
+                case Keys.D3:
+                    txtResultado.Text += "3";
+                    break;
+                case Keys.D4:
+                    txtResultado.Text += "4";
+                    break;
+                case Keys.D5:
+                    txtResultado.Text += "5";
+                    break;
+                case Keys.D6:
+                    txtResultado.Text += "6";
+                    break;
+                case Keys.D7:
+                    txtResultado.Text += "7";
+                    break;
+                case Keys.D8:
+                    txtResultado.Text += "8";
+                    break;
+                case Keys.D9:
+                    txtResultado.Text += "9";
+                    break;
+                case Keys.D0:
+                    txtResultado.Text += "0";
+                    break;
             }
 
         }
